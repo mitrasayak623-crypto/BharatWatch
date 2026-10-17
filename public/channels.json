@@ -1,0 +1,130 @@
+{
+  "channels": [
+    {
+      "id": "dd-sports",
+      "name": "DD Sports HD",
+      "logo": "https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540",
+      "category": "Sports",
+      "language": "Hindi",
+      "streamType": "hls",
+      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "description": "National sports broadcaster featuring live cricket, athletics, hockey tournaments, and multi-sport championships."
+    },
+    {
+      "id": "dd-news",
+      "name": "DD News National",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NEWS/images/LOGO_HD/image.png",
+      "category": "News",
+      "language": "Hindi",
+      "streamType": "hls",
+      "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+      "description": "Round-the-clock national news channel telecasting breaking political updates, government briefings, and international affairs."
+    },
+    {
+      "id": "bharat-gec",
+      "name": "Bharat Premier GEC",
+      "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png",
+      "category": "Entertainment",
+      "language": "Bengali",
+      "streamType": "dash",
+      "streamUrl": "https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd",
+      "description": "General entertainment network delivering drama serials, cultural variety shows, and prime family viewing."
+    },
+    {
+      "id": "cinema-drm",
+      "name": "Cinema Plus (DASH + Widevine DRM)",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
+      "category": "Movies",
+      "language": "Hindi",
+      "streamType": "dash",
+      "streamUrl": "https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd",
+      "drm": {
+        "widevineLicenseUrl": "https://cwip-shaka-player.appspot.com/no_auth",
+        "headers": {
+          "Authorization": "Bearer BHARATWATCH_TOKEN"
+        }
+      },
+      "description": "Widevine DRM protected cinema channel telecasting Bollywood and regional blockbusters in Dolby Digital audio."
+    },
+    {
+      "id": "india-global",
+      "name": "India Today Global",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png",
+      "category": "News",
+      "language": "English",
+      "streamType": "hls",
+      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "description": "Leading English broadcast network telecasting global affairs, analytical discussions, and special investigative series."
+    },
+    {
+      "id": "star-blockbusters",
+      "name": "Star Blockbusters Cinema",
+      "logo": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
+      "category": "Movies",
+      "language": "Telugu",
+      "streamType": "dash",
+      "streamUrl": "https://storage.googleapis.com/shaka-demo-assets/tears-of-steel/dash.mpd",
+      "description": "South Indian blockbuster cinema showcasing high-action entertainment, premiere movies, and film festivals."
+    },
+    {
+      "id": "sun-tamil",
+      "name": "Sun Tamil Super GEC",
+      "logo": "https://dtil.tmsimg.com/assets/s143692_ld_h15_aa.png?lock=720x540",
+      "category": "Entertainment",
+      "language": "Tamil",
+      "streamType": "hls",
+      "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+      "description": "Popular Tamil entertainment channel with daily family serials, comedy countdowns, and music specials."
+    },
+    {
+      "id": "9xm-beats",
+      "name": "9XM Bollywood Beats",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9XM/images/LOGO_HD/image.png",
+      "category": "Music",
+      "language": "Hindi",
+      "streamType": "hls",
+      "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "description": "Non-stop 24x7 Bollywood music videos, party playlists, animated characters, and weekly chartbusters."
+    },
+    {
+      "id": "asianet-kerala",
+      "name": "Asianet Kerala News",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png",
+      "category": "News",
+      "language": "Malayalam",
+      "streamType": "dash",
+      "streamUrl": "https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd",
+      "description": "Kerala's most watched news channel delivering ground reporting, political news, and NRI community updates."
+    },
+    {
+      "id": "abp-majha",
+      "name": "ABP Majha Maharashtra",
+      "logo": "https://dtil.tmsimg.com/assets/s142521_ld_h15_aa.png?lock=720x540",
+      "category": "News",
+      "language": "Marathi",
+      "streamType": "hls",
+      "streamUrl": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+      "description": "Leading Marathi news network telecasting Mumbai, Pune, and regional updates around the clock."
+    },
+    {
+      "id": "9x-tashan",
+      "name": "9X Tashan Punjabi",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
+      "category": "Music",
+      "language": "Punjabi",
+      "streamType": "dash",
+      "streamUrl": "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd",
+      "description": "Punjabi music channel playing the biggest Bhangra, pop, and folk hits with exclusive artist interviews."
+    },
+    {
+      "id": "pro-arena",
+      "name": "Pro Arena Sports",
+      "logo": "https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540",
+      "category": "Sports",
+      "language": "English",
+      "streamType": "dash",
+      "streamUrl": "https://storage.googleapis.com/shaka-demo-assets/tears-of-steel/dash.mpd",
+      "description": "High-octane sports broadcast telecasting motor racing, soccer, martial arts, and extreme athletic competitions."
+    }
+  ]
+}

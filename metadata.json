@@ -1,0 +1,6 @@
+{
+  "name": "BharatLive TV - Free Indian Live Television Streaming",
+  "description": "Stream 60+ Indian live TV channels free across News, Movies, Sports, and Entertainment in Hindi, Tamil, Telugu, Bengali, Malayalam, Kannada, Marathi, Punjabi, and English with real-time EPG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
